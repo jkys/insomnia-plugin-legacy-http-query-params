@@ -1,5 +1,9 @@
 const legacyHttpQueryPlugin = (context) => {
   const parameters = context.request.getParameters();
+  
+  if (parameters.length <= 0) {
+    return;
+  }
 
   const params: string[] = [];
   parameters.forEach(({ name, value }: { name: string, value: string }) => {

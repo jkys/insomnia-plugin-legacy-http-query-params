@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-legacy-http-query-params",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jonathan Keys",
   "license": "MIT",
   "description": "Modifies query parameters to use semicolons instead of ampersand to pass parameters in the URL.",
